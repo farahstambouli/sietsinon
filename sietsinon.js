@@ -49,3 +49,22 @@ function cout(nb){
     }
     
 }
+
+function nature(alpha){
+    if(["e","y","a","o","u","i"].includes(alpha)){
+        return "voyelle"
+    }
+    else{ 
+        return "con"
+    }
+}
+
+//corrig erexercice 1
+function esp(ch){
+    var res="seul mot"
+    for(var i=0;i<ch.length;i++){
+        if(ch[i]==" "){
+            res="str"
+        }
+    }return res
+}
